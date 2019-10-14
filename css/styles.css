@@ -14,17 +14,18 @@ body {
 
 /* Navbar */
 
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 1.5em;
 }
 
-li {
+.navbar li {
   float: right;
 }
 
-li a {
+.navbar li a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
