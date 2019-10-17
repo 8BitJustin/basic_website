@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 940px;
+  width: 80%;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -25,10 +25,42 @@ a {
   margin: 0;
 }
 
+#logoText h2 {
+  font-size: 1.5em;
+}
+
+#logoText,
+#logoText:visited {
+  color: black;
+}
+
+#logoText:hover {
+  color: grey;
+}
+
+nav {
+  text-align: center;
+}
+
 nav ul {
   list-style: none;
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
+}
+
+nav a,
+nav a:visited {
+  color: black;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+nav ul li {
+  font-size: 1.25em;
+  display: inline;
+  padding: 0 10px;
 }
 
 .active {
