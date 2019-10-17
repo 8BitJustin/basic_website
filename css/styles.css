@@ -1,3 +1,43 @@
+/********/
+/* Misc */
+/********/
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**********/
+/* Header */
+/**********/
+
+#logoText {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+/*************/
+/* Container */
+/*************/
+
+#mainContainer {
 }
