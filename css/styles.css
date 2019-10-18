@@ -72,4 +72,60 @@ nav ul li {
 /*************/
 
 #mainContainer {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#mainContainer main img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+main h1 {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 2.25em;
+}
+
+main h2 {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 1.75em;
+}
+
+/********/
+/* Work */
+/********/
+
+#workContainer {
+  margin-top: 60px;
+}
+
+#projects {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#projects img {
+  max-width: 100%;
+}
+
+#projects li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+
+#projects p {
+  margin-top: 0;
+  text-align: center;
+}
+
+/**********/
+/* Footer */
+/**********/
+
+footer img {
+  width: 32px;
 }
