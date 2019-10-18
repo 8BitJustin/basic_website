@@ -113,13 +113,15 @@ main h2 {
 
 #projects li {
   float: left;
-  width: 45%;
-  margin: 2.5%;
+  width: 80%;
+  margin: 10%;
 }
 
 #projects p {
-  margin-top: 0;
+  margin: 0;
+  padding: 5%;
   text-align: center;
+  font-size: 1.25em;
 }
 
 /**********/
